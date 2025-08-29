@@ -1,0 +1,74 @@
+/* Frontent-4 
+    Подія урок 1 */
+
+ .list {
+    margin: 0;
+    padding: 0;
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  outline: 1px solid red;
+  list-style: none;
+}
+.item {
+    padding: 20px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: 2px solid green;
+}
+
+.active-btn {
+  background-color: rgb(82, 82, 150);
+  color: #fff;
+  outline: 2px solid red;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1120px;
+  margin: 0 auto;
+  gap: 30px;
+  outline: 1px solid red;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+ .parent{
+    padding: 50px;
+    background-color: aqua;
+    border-radius: 30px;
+    font-size: 30px;
+    color: red;
+}
+
+.child{
+    padding: 50px;
+    background-color: blueviolet;
+    border-radius: 30px; 
+    font-size: 30px;
+    color: red;
+}
+
+.children{
+    padding: 50px;
+    background-color: greenyellow;
+    border-radius: 30px; 
+    font-size: 30px; 
+    color: red;
+} 
