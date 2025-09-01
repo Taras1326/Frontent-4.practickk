@@ -1,0 +1,9 @@
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    position: absolute;
+    cursor: grab;
+  user-select: none;
+}
